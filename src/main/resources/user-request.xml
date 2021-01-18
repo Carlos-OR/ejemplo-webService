@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:us="http://webservice.com/spring-boot-webservice">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <us:getUserRequest>
+            <us:name>Carlos</us:name>
+        </us:getUserRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
